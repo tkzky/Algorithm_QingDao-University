@@ -114,6 +114,7 @@ size_t LocateElem(const LinkList &L, ElemType e)
     return 0;
 }
 
+/* Insert elem before ith, i = 1, 2 ...*/
 bool ListInsert(LinkList &L, int i, ElemType e)
 {
     if (i < 1 || i > ListLength(L) + 1)
