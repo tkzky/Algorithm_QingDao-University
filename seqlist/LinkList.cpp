@@ -33,7 +33,7 @@ bool CreateListTail(LinkList &L, int n)
         if (nullptr == new_node)
             return false;
         std::cin >> new_node->data;
-        new_node = nullptr;
+        new_node->next = nullptr;
         tail->next = new_node;
         tail = new_node;
     }

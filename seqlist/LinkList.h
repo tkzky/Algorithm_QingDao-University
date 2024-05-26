@@ -2,7 +2,7 @@
 
 typedef int ElemType;
 
-typedef struct
+typedef struct ListNode
 {
     ElemType data;
     ListNode *next;
